@@ -1,0 +1,12 @@
+print("Enter Minimum Sleep hours:")
+A = int(input())
+print("Enter minimum sleep hours:")
+B = int(input())
+print("Enter Sleep hours:")
+H = int(input())
+if A <= H <= B:
+    print("Normal sleep")
+elif H >= B:
+    print("Excess sleep")
+elif H <= A:
+    print("Deficiency Sleep")
