@@ -1,0 +1,29 @@
+first_number = float(input())
+second_number = float(input())
+oper_num = input()
+if second_number != 0:
+    if oper_num == "+":
+        print(first_number + second_number)
+    elif oper_num == "-":
+        print(first_number - second_number)
+    elif oper_num == "/":
+        print(first_number / second_number)
+    elif oper_num == "*":
+        print(first_number * second_number)
+    elif oper_num == "mod":
+        print(first_number % second_number)
+    elif oper_num == "pow":
+        print(first_number ** second_number)
+    elif oper_num == "div":
+        print(first_number // second_number)
+elif second_number == 0.0:
+    if oper_num == "+":
+        print(first_number + second_number)
+    elif oper_num == "-":
+        print(first_number - second_number)
+    elif oper_num == "*":
+        print(first_number * second_number)
+    elif oper_num == "pow":
+        print(first_number ** second_number)
+    elif oper_num in ("mod","div","/"):
+        print("Division by 0!")
