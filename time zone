@@ -1,0 +1,8 @@
+a = float(input())
+time = a + 10
+if time >= 0 and time <24:
+    print("Tuesday")
+elif time < 0:
+    print("Monday")
+elif time >= 24:
+    print("Wednesday")
