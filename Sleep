@@ -1,6 +1,6 @@
 print("Enter Minimum Sleep hours:")
 A = int(input())
-print("Enter minimum sleep hours:")
+print("Enter maximum sleep hours:")
 B = int(input())
 print("Enter Sleep hours:")
 H = int(input())
