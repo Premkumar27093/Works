@@ -1,0 +1,7 @@
+n=int(input())
+scores_=input()
+score_=scores_.split(" ")
+new=set(score_)
+min1_=list(map(int,new))
+mini1_=max(min1_)
+min1_.remove(mini1_)
